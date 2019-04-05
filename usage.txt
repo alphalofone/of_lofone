@@ -1,0 +1,38 @@
+umount /dev/sdb1  	; 卸载U盘
+
+shutdown -h now		; 立即关机
+shutdown -h 22:50    	; 定时关机
+shutdown -c		；取消定时关机
+shudown -r now		; 重启
+
+sudo nautilus		; 打开管理员文件管理器
+su -m			; 使用root权限
+
+mkdir dir1 		; 创建一个叫做 'dir1' 的目录' 
+mkdir dir1 dir2 	; 同时创建两个目录 
+
+rmdir dir1		; 删除一个叫做 'dir1' 的目录' 
+rm -f file1		; 删除一个叫做 'file1' 的文件' 
+rm -rf dir1 		; 删除一个叫做 'dir1' 的目录并同时删除其内容 
+
+mv dir1 new_dir 	; 重命名/移动 一个目录 
+cp file1 file2		; 复制一个文件 
+cp dir/* .		; 复制一个目录下的所有文件到当前工作目录 
+cp -a dir1 dir2		; 复制一个目录
+
+useradd user1		; 创建一个新用户 
+
+rar x file1.rar 	; 解压rar包
+unzip file1.zip		; 解压一个zip格式压缩包
+dpkg -i package.deb	; 安装/更新一个 deb 包
+sudo apt update		; 升级列表中的软件包 
+sudo apt upgrade	; 升级所有已安装的软件 
+sudo apt clean		; 从下载的软件包中清理缓存
+sudo apt install package; 安装/更新一个 deb 包 
+
+
+cat file1 		; 从第一个字节开始正向查看文件的内容 
+cat -n file1 		; 标示文件的行数 
+
+free-m			; 以MB为单位显示内存使用情况
+
