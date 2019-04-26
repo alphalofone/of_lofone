@@ -217,11 +217,6 @@ while(fenxi.hasMoreTokens){
 - A类必须实现事件源发生相应事件的接口方法供注册器调用。
 - 监视器通过接口回调来调用实现接口的方法。
 
----
-![event](event.png "deal with event")
----
-
-
 # I/O操作
 
 - 打开或者创建一个文件 File f = new File("C:/user/lofone", "hello.txt"); //不指定路径默认当前路径。
